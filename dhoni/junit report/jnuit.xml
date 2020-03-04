@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="65.095605">
+<testcase classname="To login into adactin hotel app and book room" name="Verify the user login funtionality with invalid crendentails" time="9.697666">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+Given User launch the adactin application...................................passed
+Then User enter the username in the login module............................passed
+And User enter the password in the login module.............................passed
+Then User click on the login button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login into adactin hotel app and book room" name="Book a hotel" time="10.604129">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+Then User enter the username in the login module............................passed
+And User enter the password in the login module.............................passed
+And User click on the login button..........................................passed
+And User selects the hotel location.........................................passed
+And User selects the hotel..................................................passed
+And User selects the roomtype...............................................passed
+And User selects the no of room.............................................passed
+And User enters the in date.................................................passed
+And User enters the out date................................................passed
+And user enters number of adults............................................passed
+And user enters the children per room.......................................passed
+Then User click on search button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login into adactin hotel app and book room" name="validate the loaction of hotel" time="11.051457">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+Then User enter the username in the login module............................passed
+And User enter the password in the login module.............................passed
+And User click on the login button..........................................passed
+And User selects the hotel location.........................................passed
+And User selects the hotel..................................................passed
+And User selects the roomtype...............................................passed
+And User selects the no of room.............................................passed
+And User enters the in date.................................................passed
+And User enters the out date................................................passed
+And user enters number of adults............................................passed
+And user enters the children per room.......................................passed
+And User click on search button.............................................passed
+Then user validate the location of hotel....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login into adactin hotel app and book room" name="validate the dates of booking" time="12.241203">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+Then User enter the username in the login module............................passed
+And User enter the password in the login module.............................passed
+And User click on the login button..........................................passed
+And User selects the hotel location.........................................passed
+And User selects the hotel..................................................passed
+And User selects the roomtype...............................................passed
+And User selects the no of room.............................................passed
+And User enters the in date.................................................passed
+And User enters the out date................................................passed
+And user enters number of adults............................................passed
+And user enters the children per room.......................................passed
+And User click on search button.............................................passed
+Then user validate the dates of booking.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login into adactin hotel app and book room" name="validate the room type and no of room" time="9.864771">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+Then User enter the username in the login module............................passed
+And User enter the password in the login module.............................passed
+And User click on the login button..........................................passed
+And User selects the hotel location.........................................passed
+And User selects the hotel..................................................passed
+And User selects the roomtype...............................................passed
+And User selects the no of room.............................................passed
+And User enters the in date.................................................passed
+And User enters the out date................................................passed
+And user enters number of adults............................................passed
+And user enters the children per room.......................................passed
+And User click on search button.............................................passed
+Then user validate the no of room and room type.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login into adactin hotel app and book room" name="validate the room type and no of room" time="11.636379">
+<system-out><![CDATA[Given User launch the adactin application...................................passed
+Then User enter the username in the login module............................passed
+And User enter the password in the login module.............................passed
+And User click on the login button..........................................passed
+And User selects the hotel location.........................................passed
+And User selects the hotel..................................................passed
+And User selects the roomtype...............................................passed
+And User selects the no of room.............................................passed
+And User enters the in date.................................................passed
+And User enters the out date................................................passed
+And user enters number of adults............................................passed
+And user enters the children per room.......................................passed
+And User click on search button.............................................passed
+And user go to booking final page...........................................passed
+Then user validate the cost including gst...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
